@@ -1,0 +1,33 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "boop",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nathanthebacon1/MVC.git"
+  },
+  "keywords": [
+    "keystone"
+  ],
+  "author": "nathan clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathanthebacon1/MVC/issues"
+  },
+  "homepage": "https://github.com/Nathanthebacon1/MVC#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
+}
